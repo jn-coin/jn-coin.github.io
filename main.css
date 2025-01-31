@@ -1,0 +1,63 @@
+/* Основные стили */
+:root {
+    --vine-green: white;
+    --text-color: #333;
+}
+
+body {
+    margin: 0;
+    font-family: 'Coinbase Mono', monospace;
+    line-height: 1.3;
+}
+
+.just-body {
+    background-color: var(--vine-green);
+}
+
+/* Hero секция */
+.just-banner {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.just-logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Контейнер контента */
+.main-container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.just-text {
+    color: #FF7BAC;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+/* Секция с кодом */
+.code-section {
+    background:  #FF7BAC;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.copyable {
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+.copyable:hover {
+    background: rgba(0, 0, 0, 0.05);
+} 
